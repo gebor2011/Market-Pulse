@@ -20,11 +20,11 @@
     .card .icon{font-size:32px;margin-bottom:8px}
     .card h4{color:#F5C542;font-size:16px;margin-bottom:6px}
     .card p{font-size:13px;color:#D1D9E6}
-    .btn-gold,.btn-outline{display:inline-block;padding:14px 32px;border-radius:40px;text-align:center;font-weight:700;font-size:18px;text-decoration:none;transition:.2s;border:none;cursor:pointer}
-    .btn-gold{background:#F5C542;color:#0B0E17}
+    .btn-gold{display:inline-block;padding:14px 32px;border-radius:40px;background:#F5C542;color:#0B0E17;font-weight:700;font-size:18px;text-decoration:none;transition:.2s;border:none;cursor:pointer}
     .btn-gold:hover{background:#e0b032}
-    .btn-outline{background:transparent;color:#F5C542;border:2px solid #F5C542;font-size:16px}
+    .btn-outline{display:inline-block;padding:14px 32px;border-radius:40px;background:transparent;color:#F5C542;border:2px solid #F5C542;font-weight:700;font-size:16px;text-decoration:none;transition:.2s}
     .btn-outline:hover{background:#F5C542;color:#0B0E17}
+    .btn-block{display:block;width:100%;text-align:center}
     .section{margin-top:50px}
     .box{background:#12161F;border-radius:24px;padding:32px 24px;border:1px solid #2A2F3F;text-align:center}
     .box-inner{max-width:500px;margin:0 auto}
@@ -36,7 +36,6 @@
     input{width:100%;padding:14px 16px;border-radius:12px;border:1px solid #2A2F3F;background:#0B0E17;color:#E8EDF5;font-size:15px;outline:none;transition:.2s;margin-bottom:16px}
     input:focus{border-color:#F5C542}
     label{font-size:14px;color:#D1D9E6;font-weight:600;display:block;margin-bottom:4px}
-    .btn-block{display:block;width:100%;text-align:center}
     @media(max-width:768px){h1{font-size:28px}h2{font-size:22px}.grid{grid-template-columns:1fr}.wrap{padding:20px 0}}
     @media(max-width:480px){h1{font-size:22px}.card{padding:16px}}
   </style>
@@ -124,7 +123,7 @@
     <div style="font-size:12px;color:#6B7280;margin-top:12px">Market Pulse — независимый продукт. Без обязательств.</div>
   </div>
 
-  <!-- ФОРМА (id="order") -->
+  <!-- ФОРМА -->
   <div id="order" class="section box" style="text-align:left">
     <h2 style="text-align:center;font-size:28px">Готов увидеть свой проект со стороны?</h2>
     <p style="text-align:center;color:#9CA3AF;margin-bottom:24px">Заполните поля, оплатите и свяжитесь с нами в Telegram.</p>
@@ -149,7 +148,7 @@
     </div>
   </div>
 
-  <!-- КНОПКА ВНИЗУ (ведёт на форму, идентична верхней) -->
+  <!-- КНОПКА ВНИЗУ (дублирует верхнюю) -->
   <div class="section" style="text-align:center;margin-top:50px;">
     <a href="#order" class="btn-gold" style="font-size:18px;padding:16px 40px;">📨 Получить объективный взгляд за $12</a>
     <div style="font-size:13px;color:#6B7280;margin-top:12px;">Оплата 1 минута · Без подписок · Никаких «потом»</div>
